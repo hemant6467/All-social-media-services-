@@ -1,0 +1,210 @@
+// QUES_=1 => 
+//  create 2 variable containing 2 number ?
+// caluculate and display ::?
+//  Additon ,subtraction . Multiply ,division, remainder
+// 
+// ANSWER
+// let a=10;
+// let b=20;
+// console.log(`two  nnumber =`,a,`,`,b);
+// console.log(`1. addition =`,a+b);
+// console.log(`2. substraction =`,a-b);
+// console.log(`3. multiply =`,a*b);
+// console.log(`4. division =`,a/b);
+// console.log(`5. remainder =`,a%b);
+
+
+
+
+
+// ques2
+
+// swap two number
+
+
+
+
+// let a = 10;
+// let b = 20;
+// console.log(`before  swapping ------->`);
+// console.log(`a=`, a);
+// console.log(`b=`, b);
+
+// console.log(`after swapping ------->`);
+// a = b;
+// b = a;
+// console.log(`a =`, a);
+// console.log(`b =`, b);
+
+
+// ques3
+
+// Student marks
+// create vartiable for marks of three subjects calculate * total marks * average *percentage
+
+
+// solution
+// console .log("question -4")
+// let science = 50, math = 50, hindi = 50;
+// console.log(`Three subject are ----->`)
+// console.log(`science = ${science}`)
+// console.log(`math = ${math}`)
+// console.log(`hindi = ${hindi}`)
+// let totalmarks = science + math + hindi;
+// console.log(`totalmarks =`, totalmarks);
+// let average = totalmarks / 3;
+// console.log(`average =`, average)
+// let percentage = (totalmarks * 100) / 300;
+// console.log(`percentage =`, percentage, `%`)
+
+
+
+// ques4
+
+// shopping bill
+// create variable for 
+// product price 
+// quantity
+// calculate total bill 
+// then apply a discount 10 % and display 
+// original bill 
+// discount bill
+// final bill
+
+
+// solution
+// let price = 1000;
+// let quantity = 10;
+// console.log(`one item price${price}`)
+// console.log(`quantity ${quantity}`);
+// let originalbill = price * quantity;
+// console.log(`total bill=`, originalbill);
+// let discount = (originalbill * 10) / 100;
+// console.log(`original bill=${originalbill}`);
+// console.log(`dicount bill=${discount}`);
+// console.log(`final bill =`,originalbill-discount)
+
+
+
+
+// question -5
+
+// area calculator 
+// create variable for length and width 
+// calculate 
+// area of rectangle
+// perimeter of rectangle
+// use appropriate arithmatic operator
+
+// solution
+
+// let length = 10;
+// let breadth = 20;
+// console.log(`length=${length} breadth=${breadth}`)
+// let area_of_retangle = length * breadth;
+// console.log(`area of rectangle = `, area_of_retangle);
+// perimeter_of_rectangle = 2 * (length + breadth);
+// console.log(`perimeter of rectangle = `, perimeter_of_rectangle);
+
+
+
+// question- 6
+// even or odd 
+// let n=17;
+// console.log(n%2==0,);
+// console.log(n%2==1,`this is  odd number`);
+
+
+
+// question-7
+// positive ,negative,zero check karna hai 
+
+// let n = -12;
+// if (n > 0) {
+//     console.log(`positive number`);
+// }
+// else if (n < 0) {
+
+//     console.log(`negative number`);
+// }
+// else {
+
+//     console.log(`zeronum`);
+// }
+
+// question-8   ,question-9
+// greater number of three variable using if and else
+// greater number 
+// let x = 1;
+// let y = 2;
+// let z = 3;
+// if (x>y&&x>z){
+//     console.log(x,`x is a greater number`)
+// }
+// else if(y>x&&y>z){
+//     console.log(y ,`y is a greater number`)
+// }
+// else{
+//     console.log(z,`z is a greater number`)
+// }
+
+
+// question -10
+// voting eligibility
+
+// let age=12;
+// if(age>=18){
+//     console.log("eligible to vote ")
+// }
+// else{
+//     console.log(`note eligible to vote `)
+// }
+
+// question-11
+// driving eligibilty
+// let age=21;
+// if (age=18&&age >18){
+//     console.log(`you are drive a car`);
+// }
+// else{
+//     console.log(`jake pahle bada ho `);
+// }
+
+
+
+// question-12
+// number range 
+// let numb1 = 12;
+// if (numb1 < 100 && numb1 > 10) {
+//     console.log(`number between 10 and 100`)
+// }
+// else {
+//     console.log(`not a number between a 10 and 100`)
+// }
+
+// question-13
+// student grade 
+// let per = 17;
+// if (per <= 100 && per >= 90) {
+//     console.log(`a grade passs`);
+// }
+// else if (per >= 80 && per <= 89) {
+//     console.log(`b grade pass`);
+// }
+// else if (per >= 70 && per <= 79) {
+//     console.log(`c grade pass`);
+// }
+// else if (per >= 60 && per <= 69) {
+//     console.log(`d grade pass`);
+// }
+// else if (per >= 40 && per <= 49) {
+//     console.log(`e grade pass`)
+ // }
+
+// else {
+//     console.log(`fail`)
+// }
+
+
+// question-14
+// student result
