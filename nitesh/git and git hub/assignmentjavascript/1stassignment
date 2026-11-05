@@ -184,7 +184,7 @@
 
 // question-13
 // student grade 
-// let per = 17;
+// let per = 80;
 // if (per <= 100 && per >= 90) {
 //     console.log(`a grade passs`);
 // }
@@ -199,7 +199,7 @@
 // }
 // else if (per >= 40 && per <= 49) {
 //     console.log(`e grade pass`)
- // }
+//  }
 
 // else {
 //     console.log(`fail`)
@@ -208,3 +208,765 @@
 
 // question-14
 // student result
+// A student pass only when they score 40 or more in every subject
+// if the student  pass and calculate the average and display
+// A >= 75 distinction  A>= 60 first divition   A>= 50 Second divition   A>= 40 fail 
+// if any subject below 40
+// result fail
+
+
+// let math=50,cs=40,hindi=30;
+// let average=(math+cs+hindi)/3;
+// console.log(average);
+// if (math>=40&&cs>=40&&hindi>=40){
+//     if(average>=75){
+//         console .log(`distinction`);
+//     }
+//   else if(average>=60){
+//     console.log(`first division`);
+//   }
+//   else if(average>=50){
+//     console.log(`second division pass`);
+//   }
+//   else{
+//     console.log(`pass`)
+//   }
+// }
+//   else {
+//         console.log(`fail`)
+//     }
+// 15. Electricity Bill 
+// Take the number of units consumed. 
+// Calculate the bill using: 
+// 0–100 units     
+// → ₹5 per unit 
+// 101–200 units   → ₹7 per unit 
+// Above 200       
+// → ₹10 per unit 
+// Example: 
+// Units = 250 
+// First 100  → 100 × 5 
+// Next 100   → 100 × 7 
+// Remaining  → 50 × 10 
+// Display the final bill.
+
+
+let unit = 190;
+if (unit > 0 && unit <= 100) {
+    console.log(`5RUPEES PER UNI`);
+    let total = unit * 5
+}
+else if (unit >= 101 && unit <= 200) {
+
+}
+else {
+
+}
+
+// 16. Simple Login 
+// Create:
+// username 
+// password 
+// Correct credentials: 
+// username = "admin" 
+// password = "12345" 
+// If both are correct: 
+// Login successful 
+// Otherwise: 
+// Invalid username or password 
+// Use the logical && operator. 
+
+// let username = `nk`;
+// password = `1235`;
+// if (username = `nk` && password== `12345`) {
+//     console.log(`LOGIN succesful`)
+// }
+// else{
+//     console .log(`your password incorrect`)
+// }
+
+
+
+
+// 17. Salary Bonus 
+// Take an employee’s: 
+// ● Salary 
+// ● Years of experience 
+// Bonus rules: 
+// Experience >= 10 years → 20% bonus 
+// Experience >= 5 years  → 10% bonus 
+// Experience >= 2 years  → 5% bonus 
+// Below 2 years          
+// Calculate and display: 
+// ● Original salary 
+// ● Bonus 
+// ● Final salary 
+
+// let salary = 1000;
+// let yearExp = 1;
+// if (yearExp >= 10) {
+//     console.log(`20% bonus`);
+//     let bonus = (salary * 20) / 100;
+//     console.log(bonus);
+//     console.log(`original salary =${salary}`);
+//     console.log(`bonus =${bonus}`)
+//     console.log(`final salary =`, bonus + salary)
+// }
+// else if (yearExp >= 5 && yearExp < 10) {
+//     console.log(`10% bonus`);
+//     let bonus = (salary * 10) / 100;
+//     console.log(bonus);
+//     console.log(`original salary =${salary}`);
+//     console.log(`bonus =${bonus}`)
+//     console.log(`final salary =`, bonus + salary)
+
+// }
+// else if (yearExp >= 2 && yearExp < 5) {
+//     console.log(`5% bonus`);
+//     let bonus = (salary * 5) / 100;
+//     console.log(bonus);
+//     console.log(`original salary =${salary}`);
+//     console.log(`bonus =${bonus}`)
+//     console.log(`final salary =`, bonus + salary)
+// }
+// else {
+//     console.log(`no bonus`);
+//     let bonus = (salary * 0) / 100;
+//     console.log(bonus);
+//     console.log(`original salary =${salary}`);
+//     console.log(`bonus =${bonus}`)
+//     console.log(`final salary =`, bonus + salary)
+// }
+
+
+// 18. Age Category 
+// Take a person’s age. 
+// Display: 
+// 0–12   
+// → Child 
+// 13–19  → Teenager 
+// 20–59  → Adult 
+// 60+    → Senior Citizen
+// Also handle invalid negative ages.
+
+
+// let age = -20;
+// if (age >= 0 && age <= 12) {
+//     console.log(` age=${age}    child`);
+
+// }
+// else if (age >= 13 && age <= 19) {
+//     console.log(`age=${age}    teenagers`);
+// }
+// else if (age >= 20 && age <= 59) {
+//     console.log(`age=${age}   adult`);
+
+// }
+// else if (age <<0) {
+//     console.log(`age=${-age}     invailed age`);
+
+// }
+// else {
+//     console.log(`age=${age}    senior citizen`)
+// }
+
+
+
+// 19. Day of the Week 
+// Take a number from 1 to 7. 
+// Using switch-case: 
+// 1 → Monday 
+// 2 → Tuesday 
+// 3 → Wednesday 
+// 4 → Thursday 
+// 5 → Friday 
+// 6 → Saturday 
+// 7 → Sunday 
+// For any other number: 
+// Invalid day 
+
+// let day = 4
+// switch(day) {
+//     case 1:
+//     console.log("monday")
+//     break;
+//     case 2 :
+//     console.log(`tuesday`)
+//     break;
+//     case 3 :
+//     console.log(`wednesday`);
+//     break;
+//     case 4 :
+//     console.log(`thursday`);
+//     break;
+//     case 5:
+//     console.log(`friday`);
+//     break;
+//      case 6 :
+//     console.log(`friday`);
+//     break;
+//     case 7:
+//     console.log(`saturday`);
+//     break;
+//     case 8:
+//     console.log(`sunday`);
+//     break;
+//     default :
+//     console.log(`invalid day`)
+
+// }
+
+
+
+// 20. Simple Calculator 
+// Take: 
+// ● First number 
+// ● Second number 
+// ● Operator 
+// Supported operators: 
+// + - 
+// * 
+// / 
+// % 
+// Use switch-case. 
+// Example: 
+// First number: 20 
+// Second number: 5 
+// Operator: * 
+// Output: 100
+
+
+// let firstNum = 10;
+// secondNum = 20;
+// operator = "%";
+// switch (operator) {
+//     case "*":
+//         console.log(`firstNumb*secondNum =`, firstNum * secondNum)
+//         break;
+//     case "+":
+//         console.log(`firstNumb+secondNum =`, firstNum + secondNum)
+//         break;
+//     case "-":
+//         console.log(`firstNumb-secondNum =`, firstNum - secondNum)
+//         break;
+//     case "/":
+//         console.log(`firstNumb*/econdNum =`, firstNum / secondNum)
+//         break;
+//     case "%":
+//         console.log(`firstNumb%secondNum =`,  secondNum%firstNum )
+//         break;
+//     default:
+//         console.log(`not `)
+// }
+
+
+
+
+// 21. Month Name 
+// Take a number from 1 to 12. 
+// Use switch-case to display the corresponding month. 
+// Example: 
+// 1  → January 
+// 2  → February 
+// 3  → March 
+// ... 
+// 12 → December 
+// For an invalid number: 
+// Invalid month
+
+// let n = 10;
+// switch (n) {
+//     case 1:
+//         console.log(`january`);
+//         break;
+//     case 2:
+//         console.log(`february`);
+//         break; case 3:
+//         console.log("march");
+//         break;
+//     case 4:
+//         console.log("Aprli");
+//         break;
+
+//     case 5:
+//         console.log("may");
+//         break;
+//     case 6:
+//         console.log("June");
+//         break;
+//     case 7:
+//         console.log("july");
+//         break;
+//     case 8:
+//         console.log("august");
+//         break;
+//     case 9:
+//         console.log("september");
+//         break;
+//     case 10:
+//         console.log("october");
+//         break;
+//     case 11:
+//         console.log("november");
+//         break;
+//     case 12:
+//         console.log("december");
+//         break;
+//     default:
+//         console.log(`Invalid month `)
+// }
+
+
+
+
+// 22. Menu-Based Calculator 
+// Create this menu: 
+// 1. Addition 
+// 2. Subtraction 
+// 3. Multiplication 
+// 4. Division 
+// 5. Modulus 
+// Take the user’s choice and two numbers. 
+// Use switch-case to perform the selected operation.
+
+
+// let n1 = 10;
+// let n2 = 20;
+// console.log(`choose a number and enter a number`)
+// console.log(`1.  addition`);
+// console.log(`2. substraction`);
+// console.log(`3. multiply`);
+// console.log(`4. division`);
+// console.log(`5. modulus`)
+
+// menu = 1;
+// switch (menu) {
+//     case 1:
+//         let addition = n1 + n2;
+//         console.log(`addtion=`, addition);
+//         break;
+//     case 2:
+//         let substraction = n1 - n2;
+//         console.log(`addtion=`, substraction);
+//         break;
+//     case 3:
+//         let multiply = n1 * n2;
+//         console.log(`addtion=`, multiply);
+//         break;
+//     case 2:
+//         let division = n1 / n2;
+//         console.log(`addtion=`, division);
+//         break;
+//     case 3:
+//         let modulus = n1 % n2;
+//         console.log(`addtion=`, modulus);
+//         break;
+
+// }
+
+
+
+// 23. Traffic Signal 
+// Take a traffic signal color: 
+// "red" 
+// "yellow" 
+// "green" 
+// Use switch-case. 
+// Display:
+// red    
+// → Stop 
+// yellow → Wait 
+// green  → Go 
+// For any other value: 
+// Invalid signal 
+
+
+// let signal="gree";
+// switch(signal){
+//     case "red":
+//         console.log(`stop`);
+//         break;
+//          case "yellow":
+//         console.log(`wait`);
+//         break;
+//          case "green":
+//         console.log(`go`);
+//         break;
+//         default:
+//             console.log(`Invalid signal `)
+// }
+
+
+
+
+// 24. ATM Transaction 
+// Create variables: 
+// balance 
+// withdrawAmount 
+// Check: 
+// 1. Withdrawal amount must be greater than 0. 
+// 2. Withdrawal amount must not be greater than the balance. 
+// 3. If valid, subtract the withdrawal amount. 
+// 4. Display the remaining balance. 
+// Example: 
+// Balance: ₹10000 
+// Withdraw: ₹3000 
+// Withdrawal successful 
+// Remaining balance: ₹7000
+
+
+
+// let balance = 10000;
+// withdraw = 100;
+// if (withdraw > 0 && balance > withdraw) {
+
+//     console.log(`withdraw successful`)
+//     let remaining_balance = balance - withdraw;
+//     console.log(`₹`, remaining_balance);
+// }
+
+
+// 25. Movie Ticket System 
+// Take: 
+// age 
+// numberOfTickets 
+// Ticket prices: 
+// Age below 12 → ₹100 
+// Age 12–59    
+// Age 60+      
+// → ₹200 
+// → ₹120 
+// Calculate the total ticket price.Example: 
+// Age: 25 
+// Tickets: 3 
+
+// Total: ₹600 
+
+// let age=20;
+// let ticket=2;
+// if(age<12){
+//     ticketprice=100;
+//     totalRate=ticket*ticketprice;
+//     console.log(`total  bill=`, totalRate)
+// }
+// else if (age>=12&&age<=59){
+//       ticketprice=200;
+//        totalRate=ticket*ticketprice;
+//     console.log(`total  bill=`, totalRate)
+// }
+// else if(age>59){
+//        ticketprice=120;
+//        totalRate=ticket*ticketprice;
+//     console.log(`total  bill=`, totalRate)
+// }
+// else{
+// console.log(`free`)
+// }
+
+
+// 26. Restaurant Menu 
+// Create the following menu: 
+// 1. Burger  → ₹150 
+// 2. Pizza   → ₹250 
+// 3. Pasta   → ₹180 
+// 4. Sandwich → ₹120 
+// Take the customer’s choice and quantity. 
+// Use switch-case to calculate the total price. 
+// Example: 
+// Choice: 2 
+// Quantity: 3 
+
+// Total: ₹750
+
+// let  Burger  =150 
+//  Pizza   = 250 
+//  Pasta   = 180 
+// Sandwich = 120
+// console.log(`1. Burger  → ₹150 
+// 2. Pizza   → ₹250 
+// 3. Pasta   → ₹180 
+// 4. Sandwich → ₹120`)
+
+// let choice=0;
+// quantity=0;
+// console.log(`quantity =`,quantity);
+// console.log(`choice =`,choice)
+// ;switch(choice){
+//     case 0:
+//         console .log(`your ordr not recieve`)
+//         break;
+//     case 1:
+//         console.log( `total bill =`, burger*quantity);
+//         break;
+//         case 2:
+//         console.log( `total bill =`, Pizza*quantity);
+//         break;
+//         case 3:
+//         console.log( `total bill =`, Pasta *quantity);
+//         break;
+//         case 4:
+//         console.log( `total bill  =`, Sandwich*quantity);
+//         break;
+//         default:
+//             console .log(`tere hisab ka kuchh nahi hai yaha per`)
+
+// }
+
+
+
+
+// 27. Electricity Bill + Discount 
+// Take the electricity units consumed. 
+// Calculate the bill using: 
+// 0–100       → ₹5/unit 
+// 101–200     → ₹7/unit 
+// Above 200   → ₹10/unit 
+// Then apply: 
+// Bill >= ₹2000 → 10% discount 
+// Otherwise     → No discount 
+// Display: 
+// Units 
+// Original Bill 
+// Discount 
+// Final Bill
+
+// let Unit = 1000;
+// if (Unit >= 0 && Unit <= 100) {
+
+//     console.log(`rupees 5 per unit`);
+//     bill = Unit * 10;
+//     if (bill > 2000) {
+//         discount = (bill * 10) / 100;
+//         // console.log(bill)
+//         console.log(discoount);
+//         console.log(`discount = 10%`,);
+//     }
+//     console.log(Unit);
+//     console.log(`original bill =`, bill);
+
+//     console.log(`total bill =`,bill)
+
+//     // console.log(`totalbill`, discount)
+
+// }
+// else if (Unit<=200&&Unit>=101){
+//      console.log(`rupees 7 per unit`);
+//     bill = Unit *7;
+//     if (bill > 2000) {
+//         discount = (bill * 7) / 100;
+//         // console.log(bill)
+//         console.log(discoount);
+//         console.log(`discount = 10%`,);
+//     }
+//     console.log(Unit);
+//     console.log(`original bill=`, bill);
+
+//     console.log(`total bill =`,bill)
+// }
+// else {
+//      console.log(`rupees 10 per unit`);
+//     bill = Unit * 10;
+//     if (bill > 2000) {
+//         discount = (bill * 10) / 100;
+//         // console.log(bill)
+//         console.log(discount);
+//         console.log(`discount = 10%`,);
+//     }
+//     console.log(Unit);
+//     console.log(`original bill=`, bill);
+//     console.log(`discount bill= `,discount)
+//     console.log(`total bill =`,bill-discount)
+// }
+
+
+
+// 28. Simple ATM Menu 
+// Create the following menu: 
+// 1. Check Balance 
+// 2. Deposit Money 
+// 3. Withdraw Money 
+// 4. Exit 
+// Use switch-case. 
+// Rules: 
+// ● Check Balance → Display current balance 
+// ● Deposit → Add money to balance 
+// ● Withdraw → Check whether sufficient balance exists 
+// ● Exit → Display a goodbye message 
+// ● Invalid choice → Display an error message
+
+// let click_option = 4
+// balance = 1000;
+// deposite = 100;
+// withdraw = 10;
+// console.log(`1. Check Balance 
+// 2. Deposit Money 
+// 3. Withdraw Money 
+// 4. Exit`)
+// if (click_option == 1) {
+//     console.log(`check balance`, balance)
+// }
+// else if (click_option === 2) {
+//     console.log(`deposite money`, balance + deposite)
+// }
+// else if (click_option == 3) {
+//     if (balance >= 0) {
+//         console.log(`Check whether sufficient balance `)
+
+//     }
+// }
+// else if(click_option==4){
+//     console.log(`goood bye have a nice day`)
+// }
+// else[
+//     console.log(`ERROR`)
+// ]
+
+// 29. Number Classification 
+// Take a number. 
+// Determine all applicable information: 
+// ● Whether it is positive, negative or zero 
+// ● Whether it is even or odd 
+// ● Whether it is greater than 100, less than 100, or equal to 100 
+// Example: 
+// Input: 150 
+// Output: 
+// Positive 
+// Even 
+// Greater than 100
+
+
+// let n = -9;
+// if (n > 0) {
+//     console.log(`positive`)
+//     if (n % 2 === 0) {
+//         console.log(`even`)
+//         if (n > 100) {
+//             console.log(`greater than 100`)
+//         }
+//         else {
+//             console.log(`less than 100`)
+//         }
+//     }
+//     else if (n % 2 === 1) {
+//         console.log(`odd`)
+//         if (n > 100) {
+//             console.log(`greater than 100`)
+//         }
+//         else {
+//             console.log(`less than 100`)
+//         }
+//     }
+
+// }
+// else {
+//     console.log(`negative`)
+//     if (n % 2 === 0) {
+//         console.log(`even`)
+//         if (n > 100) {
+//             console.log(`greater than 100`)
+//         }
+//         else {
+//             console.log(`less than 100`)
+//         }
+//     }
+//     else if (n % 2 === 1) {
+//         console.log(`odd`)
+//         if (n > 100) {
+//             console.log(`greater than 100`)
+//         }
+//         else {
+//             console.log(`less than 100`)
+//         }
+//     }
+// }
+
+// studentName 
+// rollNumber 
+// mathMarks 
+// scienceMarks 
+// englishMarks 
+// Calculate: 
+// ● Total marks 
+// ● Percentage 
+// ● Grade 
+// ● Pass/Fail 
+// Rules: 
+// Pass/Fail 
+// The student must score at least 
+// 40
+
+// in
+
+// every
+
+// subject
+// . 
+// Grade 
+// 90–100 → A 
+// 80–89  → B 
+// 70–79  → C 
+// 60–69  → D 
+// 40–59  → E 
+// Below 40 → F 
+// Display a result like: ------------------------- 
+// STUDENT RESULT ------------------------- 
+// Name       
+// Roll No    
+// Math       
+// Science    
+// English    
+// Total      
+// : Rahul 
+// : 101 
+// : 85 
+// : 78 
+// : 92 
+// : 255 
+// Percentage : 85% 
+// Grade      
+// : B 
+// Result     
+// : PASS -------------------------
+
+
+
+
+let studentName = `nitesh`
+rollNumber = 10
+mathMarks = 0;
+scienceMarks = 0;
+englishMarks = 50;
+totalMarks = scienceMarks + mathMarks + englishMarks;
+percentage = (totalMarks * 100) / 300
+if (scienceMarks > 40 && mathMarks > 40 && englishMarks > 40) {
+    console.log(` studentName :`, studentName);
+    console.log(`roll number:`, rollNumber);
+    console.log(`math :`, mathMarks);
+    console.log(`science :`, scienceMarks);
+    console.log(`english :`, englishMarks);
+    console.log(`total :`, totalMarks);
+    console.log(`percentage :`, percentage);
+    if (percentage >= 90 && percentage == 100) {
+        console.log(`A grade`);
+    }
+    else if (percentage >= 80 && percentage <= 89) {
+        console.log(`B grade`);
+    }
+    else if (percentage >= 70 && percentage <= 79) {
+        console.log(`c grade`);
+    }
+    else if (percentage >= 60 && percentage <= 69) {
+        console.log(`D grade`);
+    }
+    else if (percentage >= 50 && percentage <= 59) {
+        console.log(`E grade`);
+    }
+    else {
+        console.log(`F grade`);
+    }
+
+    console.log(` Result: pass`)
+}
+else {
+    console.log(`fail`)
+}
