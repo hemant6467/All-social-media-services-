@@ -931,42 +931,42 @@ else {
 
 
 
-let studentName = `nitesh`
-rollNumber = 10
-mathMarks = 0;
-scienceMarks = 0;
-englishMarks = 50;
-totalMarks = scienceMarks + mathMarks + englishMarks;
-percentage = (totalMarks * 100) / 300
-if (scienceMarks > 40 && mathMarks > 40 && englishMarks > 40) {
-    console.log(` studentName :`, studentName);
-    console.log(`roll number:`, rollNumber);
-    console.log(`math :`, mathMarks);
-    console.log(`science :`, scienceMarks);
-    console.log(`english :`, englishMarks);
-    console.log(`total :`, totalMarks);
-    console.log(`percentage :`, percentage);
-    if (percentage >= 90 && percentage == 100) {
-        console.log(`A grade`);
-    }
-    else if (percentage >= 80 && percentage <= 89) {
-        console.log(`B grade`);
-    }
-    else if (percentage >= 70 && percentage <= 79) {
-        console.log(`c grade`);
-    }
-    else if (percentage >= 60 && percentage <= 69) {
-        console.log(`D grade`);
-    }
-    else if (percentage >= 50 && percentage <= 59) {
-        console.log(`E grade`);
-    }
-    else {
-        console.log(`F grade`);
-    }
+// let studentName = `nitesh`
+// rollNumber = 10
+// mathMarks = 0;
+// scienceMarks = 0;
+// englishMarks = 50;
+// totalMarks = scienceMarks + mathMarks + englishMarks;
+// percentage = (totalMarks * 100) / 300
+// if (scienceMarks > 40 && mathMarks > 40 && englishMarks > 40) {
+//     console.log(` studentName :`, studentName);
+//     console.log(`roll number:`, rollNumber);
+//     console.log(`math :`, mathMarks);
+//     console.log(`science :`, scienceMarks);
+//     console.log(`english :`, englishMarks);
+//     console.log(`total :`, totalMarks);
+//     console.log(`percentage :`, percentage);
+//     if (percentage >= 90 && percentage == 100) {
+//         console.log(`A grade`);
+//     }
+//     else if (percentage >= 80 && percentage <= 89) {
+//         console.log(`B grade`);
+//     }
+//     else if (percentage >= 70 && percentage <= 79) {
+//         console.log(`c grade`);
+//     }
+//     else if (percentage >= 60 && percentage <= 69) {
+//         console.log(`D grade`);
+//     }
+//     else if (percentage >= 50 && percentage <= 59) {
+//         console.log(`E grade`);
+//     }
+//     else {
+//         console.log(`F grade`);
+//     }
 
-    console.log(` Result: pass`)
-}
-else {
-    console.log(`fail`)
-}
+//     console.log(` Result: pass`)
+// }
+// else {
+//     console.log(`fail`)
+// }
